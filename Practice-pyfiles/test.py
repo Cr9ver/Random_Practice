@@ -1,0 +1,6 @@
+
+
+name= "Otito"
+
+
+print(name)
