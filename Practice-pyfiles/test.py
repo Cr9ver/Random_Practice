@@ -1,6 +1,10 @@
 
 
-name= "Otito"
+name= ['otito', 'Ebube', 'Tele']
 
 
-print(name)
+for letters in name:
+    if len(letters) <= 4:
+        print(f"{letters}: name is too short")
+    else:
+        print(f"{letters}: name is perfect")
