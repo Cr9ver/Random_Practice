@@ -1,0 +1,86 @@
+# from math import pi
+
+
+# def vol(rad):
+#     v = (4/3)*pi*(rad**3)
+#     return v
+
+# volume = vol(2)
+# print(volume)
+
+# def ran_check(num,low,high):
+#         return f'{num} is in the range of {low} and {high} '
+    
+# new = ran_check(5,2,7)
+# print(new)
+
+
+# def up_low(s):
+#     count1 = 0
+#     count2 = 0
+    
+#     for words in s:
+#         if words.isupper():
+#             count1 +=1
+            
+#         elif (words.islower()):
+#             count2 += 1
+#     return f"The number of uppercase is {count1} and the number of lowercase is {count2}"
+    
+    
+        
+
+# new = up_low("Hello Mr. Rogers, how are you this fine Tuesday?")
+# print(new)
+
+
+# def unique_list(lst):
+#     newlist = set(lst)
+#     return newlist
+
+
+# new = unique_list([1,1,1,1,2,2,3,3,3,3,4,5])
+# print(new)
+
+# def multiply(numbers):
+#     total =1 
+#     for x in numbers:
+#         total *=x
+#     return total
+
+# new = multiply([1, 2, 3, -4])
+# print(new)
+
+
+# def palindrome(s):
+#     new = s[::-1]
+#     if s == new :
+#         return True
+    
+
+# name = palindrome('helleh')
+# print(name)
+
+
+# import string
+
+# def ispangram(str1, alphabet=string.ascii_lowercase):
+#     alphaset = set(alphabet)
+#     check = alphaset <= set(str1.lower())
+#     return check
+
+# new = ispangram("The quick brown fox jumps over the lazy dog")
+# print(new)
+
+# import string
+# def ispangram(str1, alphabet=string.ascii_lowercase):
+#     alphaset = set(alphabet)
+#     str1 = str1.replace(" ", "")
+#     str1 = str1.lower()
+#     print(str1)
+#     return str1 == alphaset
+        
+    
+# new = ispangram("The quick brown fox jumps over the lazy dog")
+# print(new)
+

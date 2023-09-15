@@ -1,0 +1,52 @@
+# def myfunc(a,b, c=0, d=0, e=0):
+#     # returns 5% of the sum of a and b
+#     return sum ((a,b)) * 0.05
+
+# myfunc(40,60,100,100)
+
+
+# def myfunc(*args):
+#     return sum(args) * 0.05
+
+# new = myfunc(2,3,6,7,8,9,10)
+# print(new)
+
+# def myfunc(**kwargs):
+#     print(kwargs)
+#     if 'fruit' in kwargs:
+#         print(f"My fruit of choice is {kwargs['fruit']}")
+#     else:
+#         print('I did not find fruit')
+
+# new = myfunc(fruit='apple', veggie ='lettuce')
+# print(new)  
+
+
+# def myfunc(**jelly):
+#     print(jelly)
+
+# new = myfunc(fruit='apple', veggie ='lettuce')
+
+
+# def myfunc(*args,**kwargs):
+#     print(args)
+#     print(kwargs)
+#     print(f"i woudl like {args[0]} {kwargs['food']}")
+
+
+# new = myfunc(10,20,30,ffruit = 'orange', food = "eggs", animal="dogs")
+# print(new)
+def myfunc(x):
+    out = ""
+    for index,i in enumerate(x):
+        if index%2 == 0 :
+            out += i.upper()
+        else:
+            out +=i.lower()
+    return out
+
+
+new = myfunc('hallucinate')
+print(new)
+
+

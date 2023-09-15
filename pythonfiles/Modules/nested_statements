@@ -1,0 +1,30 @@
+# x = 25
+
+# def printer ():
+#     x = 50 
+#     return x
+
+# print(x)
+
+
+"""
+LEGB RULE:
+
+1. LOCAL : lammbda num:num**2
+2. GLOBAL
+3. ENCLOSING
+4. BUILT -IN 
+"""
+
+x = 50 
+
+def func(x):
+    
+    print(f'X is {x}')
+
+    # LOCAL reassignment
+    x = 'New value '
+    print(f'I just locally changed x to {x}')
+
+new = func(x)
+print(new)
